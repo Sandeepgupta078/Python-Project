@@ -6,6 +6,9 @@ view student details
 exit
 '''
 
+print("Welcome to our student grade management system!")
+print("Here you can add, update, delete and view student details.")
+
 students = {}
 
 # add student
