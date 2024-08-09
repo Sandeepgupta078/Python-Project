@@ -12,7 +12,7 @@ def task():
     print(f"Todays tasks are:\n {tasks}")
 
     while True:
-        operation = int(input("Enter 1 to add a task \n 2 to Update task \n 3 to delete a task \n 4 to view all tasks \n 5 to exit:\n "))
+        operation = int(input("Enter 1 to add a task \n Enter 2 to Update task \n Enter 3 to delete a task \n  Enter 4 to view all tasks \n Enter 5 to exit:\n "))
         if operation == 1:
             new_task = input("Enter the new task: ")
             tasks.append(new_task)
